@@ -138,6 +138,6 @@ import json
 #
 # # Access Firestore
 # db = firestore.client()
-GOOGLE_APPLICATION_CREDENTIALS='C:/projects/tracking_system/pythonProject1/pantry/firebase/firebase.json'
+GOOGLE_APPLICATION_CREDENTIALS='firebase/firebase.json'
 # FIREBASE_ORM_CERTIFICATE = ''
 # FIREBASE_ORM_BUCKET_NAME = 'pantry-tracking-system.appspot.com'
