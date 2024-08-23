@@ -12,3 +12,4 @@ urlpatterns = [
     path('decrease_quantity/<int:item_id>/', views.decrease_quantity, name='decrease_quantity'),
 
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns+= urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
