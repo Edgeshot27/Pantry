@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete the Item</title>
+</head>
+<body>
+    <h1>Are you sure you want to remove the item?</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <button class="btn btn-danger">Delete</button>
+    <a class="btn btn-success" href="{% url 'item_list' %}">Cancel</a>
+    </form>
+</body>
+</html>

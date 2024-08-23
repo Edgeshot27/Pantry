@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantry Tracking System</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!-- Include Bootstrap CSS for styling buttons and modal -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <h1>Pantry Tracking System</h1>
+
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Manufacturing Date</th>
+                <th>Expiry Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.item_name }}</td>
+                <td>
+                    {{ item.quantity }}
+                    <!-- Increase Button -->
+                    <form action="{% url 'increase_quantity' item.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-success btn-sm">+</button>
+                    </form>
+                    <!-- Decrease Button -->
+                    <form action="{% url 'decrease_quantity' item.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-warning btn-sm">-</button>
+                    </form>
+                </td>
+                <td>{{ item.Manufacturing_date }}</td>
+                <td>{{ item.Expiration_date }}</td>
+                <td>
+                    <!-- Remove Button -->
+                    <form action="{% url 'delete_item' item.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{% url 'add_item_view' %}" class="btn btn-success align-center">Add Item</a>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

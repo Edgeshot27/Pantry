@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pantry-tracking-system",
+  "private_key_id": "bb3ef1f442680257b08356119f652891ad549b27",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCf1Kek/khqmws0\nc5gMQv5dEWeSN9TKabrXCbmeCJuCiO7dVK1F99+L4H52mGiWgvEnxZwgebhH8cqm\n+QWKKX2oSAP4bA47MyNNqw5SFKMmfRw1vErIa5T4h6pUY4NZefBJxhBQxO5GItYT\nedc9rpb2GpwxWSnsZLWhkiS3l9FOCk2ZAemSY8/QLSgB8QQ6q1h26zewNGdyKU+i\naCmTRMpzjsP37nQcZ1unuuuG+ZOvm7iyETL2IrAzW41/QRm/st2gu2ImUMQxZ6tD\nAe+FRS7DSz1EMSP6Jm/kpH7feWFQTPRoOBT6ecjWUwhtrXDadUW869kijKYxSNpn\nrNRkkVQlAgMBAAECggEAF8spoIy2V8sjB45EeWF+dSPCfmhPW569JjFtb5L/y5al\nBfq1cjAXbb8K3zmLKwpClQAnC51Ii3VPDOe6JQ+jhD92+oQ443lBF9k6NYqa9dTe\n3o+xtlUbBUX1BmvAwbuUbkx3tf511lJt+ieY8mF2WcbWWnECpmLLuJ+FVcuFE4/a\nyNd8CUNPwHIHNmapNNi3XHdokCXpt2C2ntH/m4Z7yBK7dcJ+JtBqkY8PLzOWv6RB\nzQoutR4vaSIev7/CIJoONekZKf3NzK+M521E9RH0HD256dx+YKqLl6u3o/v/+ZNU\nF7kFFuND8fAbd0vw2ubfI3Im3qgJ/zyj70PywYeZ9QKBgQDVX3zqzlJ6jwVtQ0ag\nBXKXVrpoN6Iu5/w5Pl/Kn6CP3ouIsd5udTm2tlRuYh8qzuZ7RbcFjUTSD5rRZ8Zb\nLPjELflIpVpsIiRkj4UMXOXGNuVfs6yd8jvB4E4VVShl+4AbF9v+VUyy16k65aXD\n224ryNwUzMLl7OV1ZmBkcIQgwwKBgQC/wtuog9VXOFgz2rx9ScTm8wnsRGdQdmFf\nssLDnlFE943gBsiBMEyPza5LlGcUidRLtQkl6i+SbkR6GCp2xdYgwt4c0PnHMB9v\nap3Xt5kl00rPAzMCUpZUtcBS3B0mvgeSkjwtdVmVYa43zIfBP5VwrMU2bcysNoje\nXVcx5Lfo9wKBgCSEQwysYtE2yOb6LIwWYpYj8aMEYm1EppXlZt92kjQNEjRCvJ6K\n0WXDro91m3/oCOnv9HKuyqhoo0ZTTE8uUyS/+XnFUsRO04uiRFLpUympG3hVd6VQ\nX4m+qZ5dBJzvfe0lGDFex9GTtxKtWsE6PJChv4iPwos3D84Xx0dpOjOhAoGBAJ5p\n3wRrREb1aQgNX0ExO9R+WmgwahjycqaYCoWHuCN9TlsPv3vZ5qW1iJMvWaiB5DtW\npuQHfp09MpyachoEfUw7Lzom+PEwNAfaz+Jw7bdtwZMaVX1JtJ7uNp8872gd/Ct9\nWvFCzGq3czDtagie+llGoPTB6B8sPg1Ulr/E7pkpAoGANFcZ5bOqTKMw2eXWJ/2S\nYWel/pP9O6TVeOT8hBw1jXD1Yc1+s7SVbAxw5+Ts1nrRviQTN3PZ0grFKzgFf7oF\nrocDgl5BV50xhJn1wccl+WlvL6+3bv7iESVeM3pmk1ireGiisiTzcPF/skYDWWlB\nUVSHAQYnZ28FRUzyAS9i9gw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-o0t5w@pantry-tracking-system.iam.gserviceaccount.com",
+  "client_id": "109061798882751750353",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-o0t5w%40pantry-tracking-system.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
