@@ -11,7 +11,7 @@ from firebase_admin import firestore
 from datetime import datetime
 from django.shortcuts import get_object_or_404
 # Use a service account.
-cred = credentials.Certificate('C:/projects/tracking_system/pythonProject1/pantry/firebase/firebase.json')
+cred = credentials.Certificate('firebase/firebase.json')
 
 app = firebase_admin.initialize_app(cred)
 
